@@ -1,14 +1,10 @@
 {
   "name": "Rails-Devcontainer",
-  
   "dockerComposeFile": [
     "docker-compose.yml"
   ],
-  
   "service": "app",
-  
   "workspaceFolder": "/workspaces/rails_devcontainer",
-  
   "customizations": {
     "vscode": {
       "extensions": [
@@ -16,7 +12,8 @@
         "atipugin.rails-partial",
         "aki77.rails-routes",
         "aki77.rails-db-schema",
-        "Blinknlights.fuzzy-ruby-server"
+        "Blinknlights.fuzzy-ruby-server",
+        "kaiwood.endwise"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"

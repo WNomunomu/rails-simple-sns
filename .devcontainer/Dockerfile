@@ -1,5 +1,5 @@
 # ↓ 現時点のデフォルトイメージ
-FROM mcr.microsoft.com/devcontainers/ruby:3
+FROM mcr.microsoft.com/devcontainers/ruby:3.2
 
 RUN apt update && \
   apt-get install --no-install-recommends -y \
@@ -10,8 +10,8 @@ RUN apt update && \
   pkg-config \
   git
 
-RUN su vscode -c "gem install rails:7.1.3"
+# RUN su vscode -c "gem install rails:7.0.4.3"
 RUN su vscode -c "/usr/local/rvm/bin/rvm fix-permissions"
 
 WORKDIR "/workspaces/rails_devcontainer"
-RUN bundle config set --local path vendor/bundle
+# RUN bundle install

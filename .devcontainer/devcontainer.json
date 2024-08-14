@@ -13,7 +13,8 @@
         "aki77.rails-routes",
         "aki77.rails-db-schema",
         "Blinknlights.fuzzy-ruby-server",
-        "kaiwood.endwise"
+        "kaiwood.endwise",
+        "castwide.solargraph"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"

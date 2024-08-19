@@ -14,7 +14,9 @@
         "aki77.rails-db-schema",
         "Blinknlights.fuzzy-ruby-server",
         "kaiwood.endwise",
-        "castwide.solargraph"
+        "castwide.solargraph",
+        "qwtel.sqlite-viewer",
+        "alexcvzz.vscode-sqlite"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
